@@ -13,7 +13,7 @@ function myController($scope) {
         // {pic:"./images/5.jpg", name:"老五"}
     ];
 
-    var picture=["./images/first.jpg","./images/2.jpg","./images/3.jpg","./images/4.jpg",'./images/5.jpg','/images/6.jpg','./images/7.jpg','./images/8.jpg','./images/9.jpg','./images/10.jpg','./images/11.jpg'];
+    var picture=["./images/first.jpg","./images/2.jpg","./images/3.jpg","./images/4.jpg",'./images/5.jpg','./images/6.jpg','./images/7.jpg','./images/8.jpg','./images/9.jpg','./images/10.jpg','./images/11.jpg'];
     
     (function remember_person() {
       if(localStorage.getItem('person'))  {
